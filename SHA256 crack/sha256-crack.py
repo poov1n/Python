@@ -1,3 +1,5 @@
+# Test it in a test site to make the script errorfree
+
 from pwn import *
 import sys
 
