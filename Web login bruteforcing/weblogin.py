@@ -1,10 +1,11 @@
 
 #useful for tasks where we need to identify or bruteforce credentials in a web application or a login page
+# Test it in a test site to make the script errorfree
 
 import requests
 import sys # for getting our own progress bar
 
-target = "https://practicetestautomation.com/practice-test-login/"
+target = "http:127.0.0.1:8.8.8.8"
 usernames = ["admin", "administrator", "test", "root", "student"]
 passwords = "password.txt"
 needle = "Logged In Successfully" # output we get after suucessful login
